@@ -11,10 +11,10 @@ import pyqrcode
 from pyqrcode import QRCode 
   
 # URL string
-site = "patreon.com/thefightcoach"
+site = "https://www.youtube.com/@thefightcoachuk"
   
 # Generate QR code 
 getqrcode = pyqrcode.create(site) 
   
 # save in svg file format
-getqrcode.png("thefightcoach.png", scale = 10) 
+getqrcode.png("thefightcoachYouTube.png", scale = 10) 
